@@ -1,0 +1,66 @@
+EL ADN CORPORATIVO
+Sesión 1 — Introducción a los Negocios Electrónicos y E-business
+
+Alumno(a): Ana Cristina Mamani Pilco
+Proyecto / Negocio: Mueblería Paraíso
+
+1. DATOS GENERALES DE LA EMPRESA
+Nombre de la empresa: Paraíso
+Ubicación física: Panamericana Sur-El Cruce-La Joya, Arequipa, Perú
+Contacto: 974363645
+Propósito en el mercado: Propósito en el mercado:
+Mueblería Paraíso se dedica a la comercialización de diferentes productos para el hogar y otros establecimientos, ofreciendo muebles y artículos como camas, colchones, roperos, mesas, sillas, tocadores, cocinas, reposteros, colchas y frazadas. La empresa trabaja con proveedores para contar con variedad de productos y atender las necesidades de sus clientes.
+
+2. INFORME EJECUTIVO Y VIABILIDAD DE LA TRANSFORMACIÓN DIGITAL
+
+2.1 Situación actual
+Actualmente, Mueblería Paraíso trabaja de manera tradicional, realizando sus ventas principalmente en su local físico. La empresa trabaja con diferentes proveedores para ofrecer variedad de productos para el hogar y también para restaurantes.
+
+Actualmente no cuenta con redes sociales ni una página web, por lo que sus clientes deben acudir al establecimiento para conocer los productos disponibles, consultar sus características y realizar sus compras.
+
+Esta situación representa una oportunidad para incorporar un canal digital que permita mostrar los productos de la empresa de una manera más organizada y accesible.
+
+2.2 Propósito de la transformación digital
+La transformación digital tiene como propósito principal ampliar el alcance de Mueblería Paraíso y facilitar el proceso de compra de los clientes.
+
+Al implementar un modelo de E-business/E-commerce, los clientes podrán consultar los productos desde Internet sin tener que acudir primero al local. La tienda virtual permitirá mostrar fotografías, precios, características y categorías de los productos.
+
+Además, se busca que el negocio pueda recibir pedidos por Internet y mantener disponible su catálogo durante todo el día, permitiendo llegar a clientes de diferentes zonas.
+
+2.3 Viabilidad de mercado
+El sector de venta de muebles y artículos para el hogar es competitivo, ya que existen diferentes negocios que ofrecen productos similares. Además, actualmente muchas personas utilizan Internet para buscar información, comparar productos y conocer precios antes de realizar una compra.
+
+La digitalización puede ayudar a Mueblería Paraíso a responder a estas necesidades mediante un catálogo virtual donde el cliente pueda:
+
+Ver los productos disponibles.
+Consultar precios.
+Ver fotografías de los muebles.
+Conocer las características de cada producto.
+Buscar productos por categorías.
+Agregar productos a un carrito de compras.
+Realizar pedidos desde Internet.
+Consultar información desde un celular o computadora.
+
+De esta manera, el negocio puede complementar su venta presencial con un nuevo canal de venta digital.
+
+2.4 Viabilidad económica y operativa
+Actualmente, Mueblería Paraíso cuenta principalmente con su local físico y sus proveedores, pero no dispone de una infraestructura digital propia como página web o redes sociales.
+
+Para realizar la transformación digital se propone utilizar herramientas que permitan desarrollar y administrar el e-commerce sin necesidad de crear todas las funciones desde cero.
+
+Se propone utilizar WordPress y WooCommerce para implementar la tienda virtual. Estas herramientas permitirán administrar los productos, categorías, precios, imágenes y pedidos desde un panel de administración.
+
+También se pueden aprovechar canales y servicios digitales de bajo costo, como:
+
+WhatsApp Business: para comunicarse con los clientes.
+Facebook e Instagram: para promocionar los productos.
+WordPress y WooCommerce: para crear y administrar la tienda virtual.
+MySQL/MariaDB: para almacenar la información del sistema.
+Servicios de alojamiento en la nube: para publicar la tienda en Internet.
+Pasarelas de pago: para facilitar los pagos electrónicos.
+APIs: para incorporar servicios externos, como conversión de moneda u otras funciones requeridas por el proyecto.
+
+Una característica importante será que el propietario pueda administrar su propio e-commerce. Por ejemplo, podrá agregar nuevos productos, modificar precios, cambiar fotografías, actualizar información o retirar productos que ya no estén disponibles, sin necesidad de modificar directamente el código de programación.
+
+CONCLUSIÓN
+Mueblería Paraíso es un buen candidato para una transformación digital porque actualmente depende principalmente de la venta en su local físico y no cuenta con presencia digital. El e-commerce permitirá ampliar el alcance del negocio y facilitar que los clientes conozcan y soliciten sus productos por Internet. Al finalizar el curso se espera contar con una tienda virtual funcional, adaptable a celulares y computadoras, que permita administrar productos y pedidos de manera sencilla.

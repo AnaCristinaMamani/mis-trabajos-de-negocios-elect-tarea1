@@ -1,0 +1,120 @@
+LOS PLANOS DE TRANSFORMACIÓN (AS-IS Y TO-BE)
+Sesión 1 — Introducción a los Negocios Electrónicos y E-business
+
+Alumno(a): Ana Cristina Mamani Pilco
+Proyecto / Negocio: Muebleria Paraiso
+
+1. PLANO AS-IS (ESTADO ACTUAL)
+Actores involucrados: Cliente: visita la tienda, observa los productos, consulta y decide qué comprar.
+Dueña: atiende al cliente, realiza la venta y registra manualmente en una hoja los productos vendidos, las cantidades y el dinero ingresado.
+Dueño: participa en la atención del negocio y, en determinados casos, realiza personalmente la entrega de productos a clientes conocidos.
+Hijo de los dueños: utiliza un sistema que, según lo informado por la dueña, permite controlar la mercadería que ingresa al negocio y la que ya fue vendida.
+Servicio de taxi: en los casos en que el cliente necesita transportar su compra y no recibe entrega directa del dueño, contrata un taxi para llevar el producto.
+Flujo paso a paso: 1. El cliente se dirige físicamente a Mueblería Paraíso.
+
+2. Observa los productos disponibles en la tienda y consulta sobre aquellos que le interesan.
+
+3. Si encuentra un producto de su agrado, decide realizar la compra.
+
+4. El cliente realiza el pago. Actualmente puede hacerlo mediante efectivo, Yape o transferencia.
+
+5. La dueña registra manualmente en una hoja la información de lo vendido, incluyendo la cantidad y el dinero ingresado.
+
+6. Paralelamente, existe un sistema utilizado por el hijo de los dueños que permite llevar un control de la mercadería que ingresa al negocio y la mercadería que se vende.
+
+7. Una vez realizada la compra, el cliente necesita coordinar el traslado del producto.
+
+8. En algunos casos, el propio cliente contrata un taxi para transportar su compra hasta su domicilio.
+
+9. En determinados casos, especialmente con clientes conocidos, el dueño realiza personalmente la entrega, cargando el producto y llevándolo hasta el domicilio del cliente.
+Punto de fricción / cuello de botella: El principal cuello de botella es que la venta depende principalmente de la atención presencial en la tienda. El cliente debe acudir físicamente para conocer y comprar los productos.
+
+Además, parte de la información de las ventas se registra manualmente en una hoja, lo que puede dificultar su organización y consulta cuando aumente el número de operaciones. El proceso de entrega tampoco se encuentra integrado a un sistema digital de pedidos, por lo que actualmente puede depender de que el cliente consiga un taxi o de que el dueño realice personalmente la entrega en determinados casos.
+
+Los diferentes medios de pago también se gestionan dentro del proceso presencial, sin estar integrados todavía a una plataforma de comercio electrónico.
+(Recuerda adjuntar también tu diagrama As-Is por separado.)
+
+2. PLANO TO-BE (ESTADO FUTURO)
+Capas / componentes de la nueva arquitectura: 1. Capa de presentación
+
+Página web responsive.
+Catálogo de productos.
+Categorías.
+Imágenes y precios.
+Buscador.
+
+2. Capa de clientes
+
+Registro e inicio de sesión.
+Datos del cliente.
+Dirección de entrega.
+Referencia de ubicación.
+Historial de pedidos.
+
+3. Capa de comercio electrónico
+
+Carrito de compras.
+Checkout.
+Registro de pedidos.
+Métodos de pago.
+Estado del pedido.
+
+4. Capa de administración
+
+Gestión de productos.
+Gestión de precios.
+Gestión de imágenes.
+Gestión de inventario.
+Gestión de pedidos.
+Consulta de ventas.
+
+5. Capa de datos
+
+Productos.
+Clientes.
+Pedidos.
+Detalles de pedidos.
+Pagos.
+Inventario.
+
+6. Servicios externos / APIs
+
+API de conversión de moneda.
+Servicio de chatbot.
+Pasarela de pago.
+Otros servicios que posteriormente sean necesarios.
+Flujo paso a paso: 1. El cliente ingresa a la tienda virtual desde una computadora o celular.
+
+2. Consulta el catálogo y busca los productos que necesita.
+
+3. Selecciona un producto y revisa su información, imagen y precio.
+
+4. Agrega uno o varios productos al carrito.
+
+5. Inicia sesión o registra sus datos.
+
+6. Indica sus datos de entrega, como nombre, dirección y referencia.
+
+7. Revisa el pedido y selecciona el método de pago disponible.
+
+8. El sistema procesa o registra el pago mediante la solución implementada.
+
+9. El pedido queda registrado automáticamente en la base de datos.
+
+10. El administrador consulta el pedido desde WordPress/WooCommerce y puede actualizar su estado.
+
+11. Se prepara el pedido y se coordina la entrega al cliente.
+Beneficios esperados: Permitir que los clientes consulten los productos sin acudir primero a la tienda.
+Ampliar el alcance comercial de Mueblería Paraíso mediante Internet.
+Permitir compras desde computadora o celular.
+Facilitar la administración de productos, precios e imágenes.
+Registrar digitalmente clientes, pedidos y ventas.
+Organizar mejor la información comercial.
+Facilitar el control del inventario y productos vendidos.
+Reducir la dependencia de registros manuales.
+Permitir que el catálogo crezca sin modificar directamente el código.
+Facilitar la gestión de los pedidos y sus entregas.
+(Recuerda adjuntar también tu diagrama To-Be por separado.)
+
+CONCLUSIÓN
+Actualmente, Mueblería Paraíso realiza principalmente sus ventas de manera presencial, donde la dueña atiende y registra manualmente las ventas, mientras el dueño también participa en la atención y, en algunos casos, realiza las entregas personalmente. Los clientes pueden pagar mediante efectivo, Yape o transferencia y normalmente gestionan por su cuenta el transporte mediante taxi. Con la transformación propuesta, el negocio incorporará un canal de comercio electrónico que permitirá mostrar productos, recibir pedidos, registrar clientes, gestionar pagos y organizar las ventas digitalmente. De esta manera, la tienda física podrá complementarse con un canal digital más organizado y accesible.

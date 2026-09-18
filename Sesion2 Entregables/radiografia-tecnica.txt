@@ -1,0 +1,33 @@
+LA RADIOGRAFÍA TÉCNICA
+Sesión 2 — E-business & E-commerce
+
+Alumno(a): Ana Cristiana Mamani Pilco
+Proyecto / Negocio: Muebleria Paraiso
+
+CUADRO COMPARATIVO
+1. Catálogo virtual de productos
+   ¿E-commerce? Sí  |  ¿E-business? No
+   Justificación: Permite al cliente consultar productos, precios e imágenes y elegir lo que desea comprar.
+
+2. Carrito de compras
+   ¿E-commerce? Sí  |  ¿E-business? No
+   Justificación: El cliente agrega uno o varios productos que desea adquirir antes de realizar su pedido.
+
+3. Registro y gestión de pedidos
+   ¿E-commerce? Sí  |  ¿E-business? Sí
+   Justificación: Forma parte de la compra porque registra el pedido del cliente, pero también permite al negocio organizar y gestionar sus ventas.
+
+4. Gestión de productos, precios e imágenes
+   ¿E-commerce? No  |  ¿E-business? Sí
+   Justificación: Es una función administrativa que permite al dueño actualizar el catálogo sin modificar el código de la página.
+
+5. Control de inventario
+   ¿E-commerce? No  |  ¿E-business? Sí
+   Justificación: Permite administrar la disponibilidad de los productos y conocer qué mercancía ingresa o se vende.
+
+6. Conversión automática de moneda
+   ¿E-commerce? No  |  ¿E-business? Sí
+   Justificación: Es una integración tecnológica que permite mostrar los precios en otra moneda como referencia, sin ser una venta por sí misma.
+
+CONCLUSIÓN
+Actualmente, Mueblería Paraíso realiza sus ventas principalmente de forma presencial, por lo que todavía no cuenta con un proceso de E-commerce implementado. La propuesta incorporará procesos de E-commerce como el catálogo, carrito y registro de pedidos, junto con procesos de E-business como la gestión de productos, inventario y servicios digitales. Esto permitirá que el negocio no solo venda por Internet, sino que también pueda organizar y administrar mejor sus operaciones.

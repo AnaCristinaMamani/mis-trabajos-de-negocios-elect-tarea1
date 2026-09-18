@@ -1,0 +1,58 @@
+EL PUENTE DIGITAL — REPORTE TÉCNICO
+Sesión 2 — E-business & E-commerce
+
+Alumno(a): Ana Cristina Mamani Pilco
+Proyecto / Negocio: Muebleria Paraiso
+
+1. OBJETIVO
+Busco permitir que los visitantes de la tienda virtual puedan consultar los precios de los productos en una moneda diferente al sol peruano. Esto facilita la comprensión de los precios para clientes Extranjeros que visiten la página de otros países y amplía el alcance del catálogo.
+
+Importante: la conversión será referencial. Los precios originales de la tienda estarán establecidos en soles y no significa que el negocio vaya a cobrar en moneda extranjera.
+
+2. API / SERVICIO EXTERNO UTILIZADO
+Nombre del servicio: ExchangeRate API
+URL / documentación: https://open.er-api.com/v6/latest/PEN
+¿Requiere API key?: No
+Datos que entrega: La API entrega información relacionada con la moneda base consultada y sus tipos de cambio. Por ejemplo, al consultar PEN, permite obtener las tasas de conversión desde el sol peruano hacia otras monedas.
+
+Entre los datos obtenidos se encuentran:
+
+Moneda base: PEN
+Tasas de cambio (rates)
+Diferentes monedas internacionales, como USD y EUR.
+
+3. ¿CÓMO SE CONECTA MI PROYECTO?
+En mi proyecto se utiliza JavaScript para realizar una solicitud mediante fetch() a la API de conversión de moneda.
+
+Primero, el código solicita los datos del tipo de cambio utilizando la moneda PEN como moneda base. Luego, recibe la respuesta de la API y la convierte a formato JSON para poder trabajar con sus datos. Finalmente, se extraen las tasas de cambio necesarias y se utilizan para mostrar al usuario una conversión referencial de los precios de los productos del catálogo.
+
+El flujo sería:
+
+Tienda virtual → JavaScript → API de conversión → Datos de cambio → Precio convertido en el catálogo
+
+4. FRAGMENTO DE CÓDIGO RELEVANTE
+fetch("https://open.er-api.com/v6/latest/PEN")
+    .then(response => response.json())
+    .then(data => {
+        const tipoUSD = data.rates.USD;
+        const tipoEUR = data.rates.EUR;
+
+        console.log("1 PEN =", tipoUSD, "USD");
+        console.log("1 PEN =", tipoEUR, "EUR");
+    })
+    .catch(error => {
+        console.error("Error al conectar con la API:", error);
+    });
+
+5. RESULTADO OBTENIDO
+Respuesta completa de la API: {result: 'success', provider: 'https://www.exchangerate-api.com', documentation: 'https://www.exchangerate-api.com/docs/free', terms_of_use: 'https://www.exchangerate-api.com/terms', time_last_update_unix: 1789689751, …}
+puente-digital.js:42 Moneda base: PEN
+puente-digital.js:43 1 PEN = 0.296909 USD
+puente-digital.js:44 1 PEN = 0.258589 EUR
+(Recuerda adjuntar también tu captura de pantalla por separado.)
+
+6. APLICACIÓN AL MODELO DE NEGOCIO
+Esta integración ayuda a Mueblería Paraíso porque permite que su catálogo pueda mostrar precios convertidos de manera automática para visitantes de otros países. Esto mejora la presentación de los productos y facilita la comprensión de los precios sin tener que realizar la conversión manualmente. Además, prepara la tienda virtual para tener un mayor alcance y una experiencia más adecuada para usuarios internacionales.
+
+7. CONCLUSIÓN
+Esta integración corresponde a E-business porque utiliza un servicio externo para apoyar y mejorar el funcionamiento del negocio, pero la conversión de moneda no constituye una venta por sí misma. El proceso complementa al E-commerce al proporcionar información adicional que facilita la consulta de los productos.

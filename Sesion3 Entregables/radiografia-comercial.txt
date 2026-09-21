@@ -1,0 +1,34 @@
+LA RADIOGRAFÍA COMERCIAL
+Sesión 3 — Negocios y Empresas Digitales (B2B, B2C, C2C)
+
+Alumno(a): Ana Cristina Mamani Pilco
+Proyecto / Negocio: Muebleria Paraiso
+
+MODELO(S) MARCADO(S): B2B, B2C
+
+EVIDENCIA
+1. ¿Quién decide la compra?
+   Evidencia: Principalmente una persona o familia decide qué mueble comprar para su hogar. También se conoce un caso en el que un ingeniero realizó una compra para una empresa.
+   Modelo: B2C / B2B ocasional
+
+2. ¿Cómo se fija el precio?
+   Evidencia: Los productos se venden con un precio establecido para cada producto. No tenemos confirmado que exista un precio especial por compras al por mayor.
+   Modelo: B2C
+
+3. ¿Cómo se paga?
+   Evidencia: Actualmente los clientes pueden pagar en efectivo, mediante Yape o transferencia bancaria.
+   Modelo: B2C / B2B
+
+4. ¿Qué tan grande es cada pedido?
+   Evidencia: Principalmente se realizan compras de productos para el consumidor final. En el caso conocido de La Granja, se compraron camas y colchones para los trabajadores, entre otros productos.
+   Modelo: B2C / B2B ocasional
+
+5. ¿Se emite factura o boleta?
+   Evidencia: La mueblería emite boleta de venta y solicita el DNI del cliente para realizar el comprobante.
+   Modelo: B2C / B2B
+
+JUSTIFICACIÓN
+Mueblería Paraíso tiene como modelo principal el B2C, porque principalmente vende sus productos directamente a personas que buscan muebles y artículos para su hogar. También realiza ventas ocasionales a empresas, como el caso de La Granja, donde se adquirieron camas, colchones, almohadas, colchas, sábanas y otros productos para sus trabajadores. Sin embargo, no se tiene confirmado que las ventas a empresas sean un canal habitual del negocio. Por ello, se considera B2C como modelo principal y B2B como un modelo secundario u ocasional. El modelo C2C no corresponde porque la mueblería vende directamente sus propios productos.
+
+CONCLUSIÓN
+Este modelo implica que la base de datos y la plataforma deben permitir registrar principalmente clientes, productos y pedidos, además de los detalles de cada compra y los pagos realizados. La tienda virtual deberá estar preparada principalmente para atender a consumidores finales, pero también podría contemplar ventas a empresas si este tipo de operación se vuelve más frecuente. Esto permitirá que el diseño del DER represente la realidad actual de Mueblería Paraíso y, al mismo tiempo, pueda adaptarse al futuro comercio electrónico.

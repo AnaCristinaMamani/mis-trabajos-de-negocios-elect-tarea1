@@ -1,0 +1,60 @@
+EL PLANO MAESTRO DE LA MEMORIA (DER)
+Sesión 3 — Negocios y Empresas Digitales
+
+Alumno(a): Ana Cristina Mamani Pilco
+Proyecto / Negocio: Muebleria Paraiso
+
+ENTIDADES
+1. Cliente
+   Atributos: id, nombre, tipo, empresa, RUC, email, teléfono, contraseña
+   PK: id  |  FK: (vacío)
+
+2. Dirección
+   Atributos: id, clienteId, dirección, referencia, distrito, ciudad, departamento
+   PK: id  |  FK: clienteId → Cliente
+
+3. Categoría
+   Atributos: id, nombre, descripción
+   PK: id  |  FK: (vacío)
+
+4. Producto
+   Atributos: id, categoriaId, nombre, descripción, medidas, material, colores, precioReferencialPEN, stock, imagen, estado
+   PK: id  |  FK: categoriaId → Categoría
+
+5. Carrito
+   Atributos: id, clienteId, fechaActualizacion
+   PK: id  |  FK: clienteId → Cliente
+
+6. DetalleCarrito
+   Atributos: id, carritoId, productoId, cantidad
+   PK: id  |  FK: carritoId → Carrito; productoId → Producto
+
+7. Pedido
+   Atributos: id, clienteId, direcciónId, fecha, estado, total
+   PK: id  |  FK: clienteId → Cliente; direcciónId → Dirección
+
+8. DetallePedido
+   Atributos: id, pedidoId, productoId, cantidad, precioUnitario, subtotal
+   PK: id  |  FK: pedidoId → Pedido; productoId → Producto
+
+9. Pago
+   Atributos: id, pedidoId, método, monto, estado, fecha
+   PK: id  |  FK: pedidoId → Pedido
+
+10. MovimientoInventario
+   Atributos: id, productoId, tipoMovimiento, cantidad, motivo, fecha
+   PK: id  |  FK: productoId → Producto
+
+DIAGRAMA (Mermaid)
+erDiagram CLIENTE ||--o{ DIRECCION : tiene CLIENTE ||--o{ CARRITO : utiliza CLIENTE ||--o{ PEDIDO : realiza CATEGORIA ||--o{ PRODUCTO : contiene CARRITO ||--|{ DETALLE_CARRITO : contiene PRODUCTO ||--o{ DETALLE_CARRITO : incluye PEDIDO ||--|{ DETALLE_PEDIDO : contiene PRODUCTO ||--o{ DETALLE_PEDIDO : incluye PEDIDO ||--o| PAGO : genera PRODUCTO ||--o{ MOVIMIENTO_INVENTARIO : registra DIRECCION ||--o{ PEDIDO : utiliza CLIENTE { int id PK string nombre string tipo string empresa string RUC string email string telefono string contrasena } DIRECCION { int id PK int clienteId FK string direccion string referencia string distrito string ciudad string departamento } CATEGORIA { int id PK string nombre string descripcion } PRODUCTO { int id PK int categoriaId FK string nombre string descripcion string medidas string material string colores decimal precioReferencialPEN int stock string imagen string estado } CARRITO { int id PK int clienteId FK datetime fechaActualizacion } DETALLE_CARRITO { int id PK int carritoId FK int productoId FK int cantidad } PEDIDO { int id PK int clienteId FK int direccionId FK datetime fecha string estado decimal total } DETALLE_PEDIDO { int id PK int pedidoId FK int productoId FK int cantidad decimal precioUnitario decimal subtotal } PAGO { int id PK int pedidoId FK string metodo decimal monto string estado datetime fecha } MOVIMIENTO_INVENTARIO { int id PK int productoId FK string tipoMovimiento int cantidad string motivo datetime fecha }
+
+RELACIÓN Y PROTECCIÓN DE DATOS
+Los datos se relacionan mediante claves primarias y foráneas, manteniendo la integridad entre clientes, productos, carritos, pedidos, pagos e inventario.
+Si se intenta borrar un cliente que ya tiene pedidos, el sistema debe impedir su eliminación física para conservar el historial de ventas de Mueblería Paraíso.
+Para evitar eliminaciones accidentales, solo el administrador autorizado debe gestionar estos registros y el sistema debe solicitar una confirmación antes de realizar la acción.
+En lugar de eliminar a un cliente con historial, se puede desactivar su cuenta y conservar sus pedidos para mantener la información de las ventas realizadas.
+Si ocurre una eliminación por error, las copias de seguridad periódicas de la base de datos permitirán recuperar la información.
+Los datos que requieren mayor protección son las contraseñas, correos, teléfonos, RUC y datos de pago; las contraseñas deben almacenarse mediante hash y el acceso debe controlarse mediante permisos.
+
+CONCLUSIÓN
+El DER de Mueblería Paraíso organiza los datos necesarios para implementar su futura tienda virtual. Permite gestionar clientes, direcciones, categorías, productos, carrito, pedidos, pagos e inventario de forma relacionada. El modelo se adapta a las necesidades reales de Mueblería Paraíso y considera tanto clientes finales como empresas u organizaciones. Esta estructura servirá como base para las siguientes sesiones y para la futura implementación de la tienda en WordPress/WooCommerce.

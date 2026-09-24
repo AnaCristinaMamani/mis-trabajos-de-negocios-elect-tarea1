@@ -1,0 +1,35 @@
+EL MAPA MAESTRO — MODELO DE NEGOCIO CANVAS
+Sesión 4 — Modelo de Negocio Canvas y Mercados Electrónicos
+
+Alumno(a): Ana Cristina Mamani Pilco
+Proyecto / Negocio: Muebleria Paraiso
+
+1. PROPUESTA DE VALOR
+Resolvemos la necesidad de comprar muebles en La Joya, zona donde casi no hay mueblerías. Ofrecemos muebles y artículos para el hogar con trato cercano y de confianza. Se puede pagar en efectivo, Yape o transferencia. En compras altas damos descuento o un detalle de regalo. Ayudamos a conseguir transporte y a cargar el producto. (planeado) Catálogo virtual disponible las 24 horas, pedidos por Internet y conversión referencial de precios a otras monedas.
+
+2. SEGMENTOS DE CLIENTES
+Principalmente familias de La Joya y alrededores que amueblan o renuevan su hogar —modelo B2C. También compran pequeños negocios y tiendas de abarrotes. De forma ocasional, empresas como La Granja que adquirió camas, colchones y ropa de cama —B2B no habitual todavía. (planeado) Personas de otras zonas y visitantes extranjeros que consultan por la tienda virtual.
+
+3. CANALES
+El local físico es el punto principal: los clientes llegan, ven los productos y compran presencialmente. Se comunican por teléfono o WhatsApp para consultar cuando no nos encuentran o está cerrado, pero la venta siempre se cierra en persona. El dueño lleva pedidos a clientes fieles en su propio vehículo. (planeado) Tienda virtual en WordPress + WooCommerce, Facebook, Instagram y WhatsApp Business.
+
+4. RELACIÓN CON CLIENTES
+Los dueños atienden directamente con trato cercano. En compras de monto alto damos rebaja o un producto de regalo. Ayudamos a conseguir taxi, cargamos la compra y a veces colaboramos con el costo del transporte. Respondemos consultas por teléfono o WhatsApp. (planeado) Registro de clientes, historial de pedidos y seguimiento del estado de compra en línea.
+
+5. FUENTES DE INGRESOS
+Venta presencial de muebles, colchones y artículos para el hogar. Pago en efectivo, Yape o transferencia. Se entrega boleta manual en cada venta. Ventas ocasionales a empresas en cantidad. (planeado) Pagos electrónicos integrados en la tienda virtual.
+
+6. RECURSOS CLAVE
+Humanos: Dueña (atención, ventas, registro a mano, boletas); Dueño (compras en Arequipa, traslado, entregas); Hijo (control de mercadería con sistema). Físicos: Local en La Joya; vehículo propio para traer mercadería desde Arequipa. Inventario: Muebles, colchones, ropa de cama y artículos variados. Administrativos: Cuaderno de anotaciones y talonario de boletas. (planeado) Plataforma web, base de datos, API de conversión de moneda y perfiles en redes sociales.
+
+7. ACTIVIDADES CLAVE
+Comprar mercadería en Arequipa y traerla al local. Atender y asesorar a los clientes hasta concretar la venta. Anotar a mano cada producto vendido, cantidad, precio y total. Revisar qué falta y reponer cuando se agota. Emitir boletas. Ayudar con el transporte y la carga. Responder consultas por teléfono o WhatsApp. (planeado) Gestionar catálogo digital, procesar pedidos en línea y controlar inventario de forma automatizada.
+
+8. SOCIOS CLAVE
+Proveedores en la ciudad de Arequipa, de donde se trae toda la mercadería. Taxistas locales con quienes coordinamos el traslado de compras de los clientes. (planeado) Proveedores de alojamiento web, pasarelas de pago y servicios de entrega para pedidos digitales.
+
+9. ESTRUCTURA DE COSTOS
+Compra de mercadería. Combustible y gastos de viaje a Arequipa. Mantenimiento del vehículo. Gastos del local y servicios básicos. Útiles de registro y emisión de boletas. Apoyo parcial al costo de transporte de clientes cuando corresponde. (planeado) Dominio y alojamiento web, comisiones de pasarela de pago y promoción en redes sociales.
+
+CONCLUSIÓN
+El bloque más débil es el registro de información: los dueños anotan todo a mano y luego le entregan los datos al hijo para que los pase a Excel, lo que genera demoras y no permite ver existencias o ganancias al momento. Lo primero que haría es estandarizar las anotaciones con un formato sencillo para los padres y luego implementar la tienda virtual conectada a una base de datos, para que el registro sea automático desde la compra y no haya que pasar información dos veces.
